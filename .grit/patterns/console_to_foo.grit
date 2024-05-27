@@ -1,0 +1,5 @@
+// This pattern is used in integration tests
+
+pattern console_to_foo() {
+  `console.log($msg)` => `the proconsul was here`
+}
